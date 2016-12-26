@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 768M
+  instances: 2
+  domain: mybluemix.net
+  name: node-js-dea-test
+  host: node-js-dea-test
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Mobile Client Access-ix5ftwgi
